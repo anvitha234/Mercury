@@ -17,6 +17,7 @@ def sign_in(email, password):
 
 # Welcome page
 st.title("Mercury")
+st.write("Greek god of friendship")
 st.write("Cultivating Meaningful Connections")
 
 # Choice between sign in and register
