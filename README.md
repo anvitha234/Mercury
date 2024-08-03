@@ -5,13 +5,6 @@
 
 Mercury is an AI-enabled platform for finding friends by identifying their MBTI type and performing cosine similarity on the vectors.
 
-## Features
-
-- Identify MBTI type
-- Use our AI model to find where you stand
-- Find friends and mentors with similar personality traits
-- User-friendly interface
-
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
@@ -19,6 +12,13 @@ Mercury is an AI-enabled platform for finding friends by identifying their MBTI 
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## Features
+
+- Identify MBTI type
+- Use our AI model to find where you stand
+- Find friends and mentors with similar personality traits
+- User-friendly interface
 
 ## Installation
 
