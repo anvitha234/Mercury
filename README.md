@@ -1,19 +1,75 @@
-# 🎈 Blank app template
+# 🎈 Mercury: An AI Enabled Platform for Finding Friends
 
-A simple Streamlit app template for you to modify!
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Mercury is an AI-enabled platform for finding friends by identifying their MBTI type and performing cosine similarity on the vectors.
 
-### How to run it on your own machine
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-1. Install the requirements
+## Installation
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+To get started with Mercury, follow these steps:
 
-2. Run the app
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/AbhishekMZ/Mercury.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd mercury
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Usage
+
+To use Mercury, follow these steps:
+
+1. Run the application:
+    ```sh
+    streamlit run streamlit_app.py
+    ```
+2. Follow the on-screen instructions to input your MBTI type and find friends with similar personality traits.
+
+## Features
+
+- Identify MBTI type
+- Perform cosine similarity on personality vectors
+- Find friends with similar personality traits
+- User-friendly interface
+
+## Contributing
+
+We welcome contributions! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m "Add new feature"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature-branch
+    ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, please contact us at [email@example.com](mailto:sexysrivanth@gmail.com).
