@@ -31,10 +31,10 @@ if choice == "Sign In":
     if submit_button:
         result = sign_in(email, password)
         st.success(result)
-        st.experimental_set_query_params(page="check_back_in")
+        st.experimental_set_query_params(page="tell_us_about_yourself")
 elif choice == "Register":
     # Registration form
-    st.title("Register")
+    st.title("Registration")
     name = st.text_input("Name")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
@@ -52,11 +52,7 @@ elif choice == "Register":
 params = st.query_params    
 if params.get("page"):
     page = params["page"][0]
-    if page == "check_back_in":
-        # Check back in page
-        st.title("Check back in with us")
-        st.write("Welcome back!")
-    elif page == "tell_us_about_yourself":
+    if page == "tell_us_about_yourself":
         # Tell us about yourself page
         st.title("Tell us about yourself")
         st.write("We're excited to get to know you better!")
