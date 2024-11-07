@@ -1,4 +1,4 @@
-# 🎈 Mercury: An AI Enabled Platform for Finding Friends
+# 🎈 Mercury: An AI Platform for Finding Friends
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -15,8 +15,8 @@ Mercury is an AI-enabled platform for finding friends by identifying their MBTI 
 
 ## Features
 
-- Identify MBTI type
-- Use our AI model to find where you stand
+- Identify MBTI type of the person
+- Run the AI model to determine compatibility based on personality type
 - Find friends and mentors with similar personality traits
 - User-friendly interface
 
@@ -71,6 +71,3 @@ We welcome contributions! Please follow these steps to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For any questions or suggestions, please contact us at mabhishekz.ai22@rvce.edu.in
